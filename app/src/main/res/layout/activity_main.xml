@@ -29,5 +29,51 @@
         android:layout_below="@id/longi"
         android:text="Last Updated: "/>
 
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_time"
+        android:textSize="30dp"
+        android:text="Distance Matrix"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/view_origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:text="Origin LatLong: "/>
+
+    <TextView
+        android:id="@+id/view_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_origin"
+        android:text="Destination LatLong: "/>
+
+    <TextView
+        android:id="@+id/view_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_destination"
+        android:text="Distance: "/>
+
+    <TextView
+        android:id="@+id/view_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_distance"
+        android:text="Duration: "/>
+
+    <TextView
+        android:id="@+id/view_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_duration"
+        android:text="Transport Mode: "/>
+
+
 
 </RelativeLayout>
